@@ -1,8 +1,48 @@
-header{
+.gray-bkg{
     background-color: #eeeeee;
 }
-.class="logo"{
+.logo{
     width: 160px;
+    margin-top: 49px;
 }
 
 
+.intro-block{
+    display: flex;
+}
+
+.intro-block-header{
+    font-family: "Roboto", serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 78px;
+}
+
+.intro-block-subheader{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.intro-block-button{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: #FB565A;
+    color: #ffffff;
+    border: 0px;
+    width: 240px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+.centered-block{
+margin: 0 auto;
+    width: 1157px;
+}
