@@ -51,6 +51,11 @@ margin: 0 auto;
     width: 1157px;
 }
 
+.product-wrapper{
+display: flex;
+justify-content: space-between;
+}
+
 .product-img{
     margin-top: 80px;
 }
@@ -78,7 +83,6 @@ margin: 0 auto;
     font-weight: 160;
     line-height: 18px;
     text-transform: uppercase;
-    background: #FB565A;
     color: #ffffff;
     border: 0px;
     width: 240px;
@@ -87,3 +91,14 @@ margin: 0 auto;
     margin-top: 32px;   
 }
 
+.product-btn-pink{
+    background: #FB565A;
+}
+
+.product-btn-green{
+    background: #00CA74;
+}
+
+.product-btn-yellow{
+    background: #efc849;
+}
