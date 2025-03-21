@@ -2,6 +2,11 @@ body{
     min-width: 1157px;
 }
 
+.bottom-border{
+border-bottom: 2px solid #eee;
+padding-bottom: 80px;
+}
+
 .gray-bkg{
     background-color: #eeeeee;
 }
@@ -102,3 +107,65 @@ justify-content: space-between;
 .product-btn-yellow{
     background: #efc849;
 }
+
+.studio-wrapper{
+    display: flex;
+  }
+
+.studio-description{
+    width: 797px;
+   }
+
+.studio-description-header{
+    font-family: "Roboto", serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 73px;
+}
+
+.studio-description-text{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.studio-description-subheader{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.studio-description-list li::before{
+    content: "\2014 \2003";
+    color: #FB565A;
+}
+
+.studio-description-list li{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+}
+
+.studio-achievements-img{
+    margin-top: 39px;
+}
+
+.studio-achievements-text{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 37px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
