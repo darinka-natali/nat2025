@@ -8,13 +8,13 @@ padding-bottom: 80px;
 }
 
 .gray-bkg{
-    background-color: #eeeeee;
+    background: #eeeeee;
 }
+
 .logo{
     width: 160px;
     margin-top: 49px;
 }
-
 
 .intro-block{
     display: flex;
@@ -79,18 +79,18 @@ justify-content: space-between;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 25px;  
+    margin-top: 16px;  
 }
 
 .product-btn{
     font-family: "Roboto", serif;
     font-size: 16px;
-    font-weight: 160;
+    font-weight: 500;
     line-height: 18px;
     text-transform: uppercase;
     color: #ffffff;
     border: 0px;
-    width: 240px;
+    width: 160px;
     height: 50px;
     cursor: pointer;
     margin-top: 32px;   
@@ -100,12 +100,12 @@ justify-content: space-between;
     background: #FB565A;
 }
 
-.product-btn-green{
-    background: #00CA74;
-}
-
 .product-btn-yellow{
     background: #efc849;
+}
+
+.product-btn-green{
+    background: #00CA74;
 }
 
 .studio-wrapper{
@@ -168,4 +168,29 @@ justify-content: space-between;
     text-align: center;
 }
 
+.studio-achievements-indicators{
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-between;
+}
 
+.studio-achievements-indicator-number{
+    font-family: "Roboto", serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.studio-achievements-indicator-number sup{
+    vertical-align: super;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.studio-achievements-indicator-description{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 11px;  
+}
