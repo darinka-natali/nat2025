@@ -168,11 +168,31 @@ justify-content: space-between;
     text-align: center;
 }
 
+.brands-block{
+    display: flex;
+    border-bottom: 2px solid #eee;
+}
+
+.separator{
+    background: #eee;
+    height: 52px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 2px;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
 .studio-achievements-indicators{
     display: flex;
     margin-top: 31px;
     justify-content: space-between;
-}
+    }
 
 .studio-achievements-indicator-number{
     font-family: "Roboto", serif;
@@ -194,3 +214,13 @@ justify-content: space-between;
     line-height: 18px;
     margin-top: 11px;  
 }
+
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 416px;
+    top: 1843px;
+    margin-top: 73px; 
+    }
